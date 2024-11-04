@@ -10,6 +10,9 @@ body, html{
 main{
     @apply bg-inherit relative h-full w-full;
 }
+#collage-image{
+    container-type: inline-size
+}
 
 *{
     @apply overflow-x-hidden;
@@ -19,7 +22,11 @@ main{
     @apply scale-[1.1];
 }
 #card-staging > *{
-@apply flex-shrink-0 m-1 md:m-4 lg:my-2 w-[100px] h-[150px] md:w-[301px] md:h-[338px];
+@apply flex-shrink-0 m-1 md:m-4 lg:my-2 w-[150px] md:w-[301px] md:h-[338px];
 }
+
+#card-staging svg{
+    @apply md:h-[79px] md:w-[79px] h-[40px] w-[40px];
+    }
 
 

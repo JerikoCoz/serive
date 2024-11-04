@@ -562,8 +562,8 @@ video {
   position: relative;
 }
 
-.bottom-\[-10px\] {
-  bottom: -10px;
+.bottom-\[-3cqh\] {
+  bottom: -3cqh;
 }
 
 .mr-2 {
@@ -574,8 +574,8 @@ video {
   margin-right: 1.25rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-8 {
@@ -678,8 +678,8 @@ video {
   font-size: clamp(.7rem,4vw,1.5rem);
 }
 
-.text-\[clamp\(1\.5rem\2c 4vw\2c 4rem\)\] {
-  font-size: clamp(1.5rem,4vw,4rem);
+.text-\[clamp\(1\.5rem\2c 6vw\2c 4rem\)\] {
+  font-size: clamp(1.5rem,6vw,4rem);
 }
 
 .font-bold {
@@ -728,6 +728,10 @@ main {
   background-color: inherit;
 }
 
+#collage-image{
+  container-type: inline-size
+}
+
 * {
   overflow-x: hidden;
 }
@@ -740,8 +744,7 @@ main {
 
 #card-staging > * {
   margin: 0.25rem;
-  height: 150px;
-  width: 100px;
+  width: 150px;
   flex-shrink: 0;
 }
 
@@ -760,13 +763,27 @@ main {
   }
 }
 
+#card-staging svg {
+  height: 40px;
+  width: 40px;
+}
+
 @media (min-width: 768px) {
+  #card-staging svg {
+    height: 79px;
+    width: 79px;
+  }
+
   .md\:bottom-\[50px\] {
     bottom: 50px;
   }
 
   .md\:mr-\[40px\] {
     margin-right: 40px;
+  }
+
+  .md\:mt-28 {
+    margin-top: 7rem;
   }
 
   .md\:h-\[338px\] {
@@ -795,8 +812,8 @@ main {
 }
 
 @media (min-width: 1024px) {
-  .lg\:bottom-0 {
-    bottom: 0px;
+  .lg\:bottom-5 {
+    bottom: 1.25rem;
   }
 
   .lg\:h-\[1024px\] {
