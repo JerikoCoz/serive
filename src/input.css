@@ -29,4 +29,19 @@ main{
     @apply md:h-[79px] md:w-[79px] h-[40px] w-[40px];
     }
 
-
+    .border-style{
+        @apply h-[100px] mb-5;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .border-style1{
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .border-style2{
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .numbers{
+        container-type: inline-size;
+    }
