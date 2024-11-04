@@ -666,6 +666,10 @@ video {
   font-size: clamp(.8rem,4vw,1.5rem);
 }
 
+.text-\[clamp\(1rem\2c 4vw\2c 4rem\)\] {
+  font-size: clamp(1rem,4vw,4rem);
+}
+
 .font-bold {
   font-weight: 700;
 }
