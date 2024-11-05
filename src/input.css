@@ -60,3 +60,13 @@ main{
         @apply opacity-0;
     }
 
+#contact-container{
+    container-type: inline-size;
+}
+
+label{
+    @apply cursor-text;
+}
+.focus{
+    @apply -translate-y-5 ;
+}
