@@ -7,15 +7,17 @@
 body, html{
     @apply h-full w-full bg-[#EAE7DE] p-0 m-0;
 }
+
 main{
     @apply bg-inherit relative h-full w-full;
+    scroll-behavior: smooth;
 }
 #collage-image{
     container-type: inline-size
 }
 
 *{
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden transition duration-1000;
 }
 
 .intro-load{
@@ -45,3 +47,16 @@ main{
     .numbers{
         container-type: inline-size;
     }
+
+    .slide-left{
+        @apply -translate-x-[30px] opacity-0;
+    }
+
+    .slide-right{
+        @apply translate-x-[30px] opacity-0;
+    }
+
+    .just-opacity{
+        @apply opacity-0;
+    }
+
