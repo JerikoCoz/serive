@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch", 
+    "run": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npx cross-env NODE_ENV=production npx tailwindcss -o output.css --minify",
     "dev": "npx cross-env NODE_ENV=production npx tailwindcss -o output.css"
   },
