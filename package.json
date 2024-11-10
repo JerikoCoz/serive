@@ -6,7 +6,7 @@
   "scripts": {
     "run": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npx cross-env NODE_ENV=production npx tailwindcss -o output.css --minify",
-    "dev": "npx cross-env NODE_ENV=production npx tailwindcss -o output.css"
+    "dev": "cross-env NODE_ENV=development npx tailwindcss -o output.css"
   },
   "keywords": [],
   "author": "",
