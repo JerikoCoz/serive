@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "run": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-  "production": "cross-env NODE_ENV=production npx tailwindcss -i ./src/input.css -o ./src/output.css --minify",
-  "dev": "cross-env NODE_ENV=development npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
-},
-
+  "scripts": {
+    "run": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "production": "cross-env NODE_ENV=production npx tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "dev": "cross-env NODE_ENV=development npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
